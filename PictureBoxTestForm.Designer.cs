@@ -36,9 +36,9 @@ namespace PictureBoxTest
             // 
             // imagePictureBox
             // 
-            this.imagePictureBox.Location = new System.Drawing.Point(91, 174);
+            this.imagePictureBox.Location = new System.Drawing.Point(91, 42);
             this.imagePictureBox.Name = "imagePictureBox";
-            this.imagePictureBox.Size = new System.Drawing.Size(607, 264);
+            this.imagePictureBox.Size = new System.Drawing.Size(607, 396);
             this.imagePictureBox.TabIndex = 0;
             this.imagePictureBox.TabStop = false;
             // 
@@ -52,14 +52,14 @@ namespace PictureBoxTest
             this.nextImageButton.UseVisualStyleBackColor = true;
             this.nextImageButton.Click += new System.EventHandler(this.nextImageButton_Click);
             // 
-            // Form1
+            // PictureBoxTestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.nextImageButton);
             this.Controls.Add(this.imagePictureBox);
-            this.Name = "Form1";
+            this.Name = "PictureBoxTestForm";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.imagePictureBox)).EndInit();
             this.ResumeLayout(false);

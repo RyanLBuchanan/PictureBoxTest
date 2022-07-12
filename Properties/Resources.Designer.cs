@@ -63,9 +63,9 @@ namespace PictureBoxTest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pyramids {
+        internal static System.Drawing.Bitmap image0 {
             get {
-                object obj = ResourceManager.GetObject("pyramids", resourceCulture);
+                object obj = ResourceManager.GetObject("image0", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace PictureBoxTest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pyramids_negative {
+        internal static System.Drawing.Bitmap image1 {
             get {
-                object obj = ResourceManager.GetObject("pyramids_negative", resourceCulture);
+                object obj = ResourceManager.GetObject("image1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace PictureBoxTest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pyramids_sepia {
+        internal static System.Drawing.Bitmap image2 {
             get {
-                object obj = ResourceManager.GetObject("pyramids_sepia", resourceCulture);
+                object obj = ResourceManager.GetObject("image2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

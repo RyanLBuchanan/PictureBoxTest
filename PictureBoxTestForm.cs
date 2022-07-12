@@ -12,10 +12,12 @@ namespace PictureBoxTest
 {
     public partial class PictureBoxTestForm : Form
     {
-        private int ImageNumber { get; set; } = -1; // The image to display
+        private int ImageNumber { get; set; } = 0; // The image to display
         public PictureBoxTestForm()
         {
             InitializeComponent();
+            imagePictureBox.Image = (Image)(Properties.Resources.ResourceManager.GetObject(
+                $"image0"));
         }
 
         private void nextImageButton_Click(object sender, EventArgs e)
